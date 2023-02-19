@@ -20,7 +20,7 @@ public:
 	float getPrecioU();
 	int getCant();
 	virtual int getRN();
-private:
+protected:
 	bool calidad;
 	float precioU = 0;
 	int cant;
