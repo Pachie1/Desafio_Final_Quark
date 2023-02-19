@@ -54,6 +54,7 @@ void Vista::menuInicio() {
 		}
 
 	} while (input != 3);
+	EXIT_SUCCESS;
 }
 
 void Vista::menuHisto() {
